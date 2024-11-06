@@ -1,0 +1,13 @@
+[package]
+name = "the-rust-book-chapters-15-and-16"
+version = "0.1.0"
+edition = "2021"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+unwrap_used = "deny"
+missing_panics_doc = "allow"
+missing_errors_doc = "allow"
+
+[dependencies]
