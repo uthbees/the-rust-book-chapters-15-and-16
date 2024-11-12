@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    the_rust_book_chapters_15_and_16::bank_simulation();
 }

@@ -11,3 +11,5 @@ missing_panics_doc = "allow"
 missing_errors_doc = "allow"
 
 [dependencies]
+num-format = "0.4.4"
+rand = "0.9.0-alpha.2"
