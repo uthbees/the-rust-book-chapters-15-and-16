@@ -10,6 +10,9 @@ unwrap_used = "deny"
 missing_panics_doc = "allow"
 missing_errors_doc = "allow"
 
+[dependencies.linked-lists]
+path = "./lib/linked-lists"
+
 [dependencies]
 num-format = "0.4.4"
 rand = "0.9.0-alpha.2"
